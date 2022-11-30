@@ -19,11 +19,7 @@ module.exports = {
       { test: /\.html$/, use: [{ loader: "html-loader" }] },
       {
         test: /\.(css|scss)$/,
-        use: [
-          { loader: MiniCssExtractPlugin.loader },
-          "css-loader",
-          "sass-loader",
-        ],
+        use: [{ loader: MiniCssExtractPlugin.loader }, "css-loader"],
       },
       {
         test: /\.(png|gif|jpg|svg)$/,
