@@ -1,11 +1,14 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 import Layout from "./containers/Layout";
 
 const App = () => {
   return (
-    <div>
-      <Layout></Layout>
-    </div>
+    <>
+      <Layout>
+        <Navbar></Navbar>
+      </Layout>
+    </>
   );
 };
 

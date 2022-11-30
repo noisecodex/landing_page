@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "@mui/material";
 
-const Layout = () => {
+const Layout = (props) => {
   return (
     <Container
       maxWidth="false"
@@ -13,7 +13,7 @@ const Layout = () => {
         alignItems: "center",
       }}
     >
-      THIS IS A CONTAINER MADAFUCKER !!!
+      {props.children}
     </Container>
   );
 };
