@@ -1,15 +1,11 @@
 import React from "react";
 import { Grid } from "@mui/material";
+import Home from "../components/Home";
 
 const Body = () => {
   return (
     <Grid container spacing={4}>
-      <Grid item xs={6} sx={{ textAlign: "center" }}>
-        PRESENTACION
-      </Grid>
-      <Grid item xs={6} sx={{ textAlign: "center" }}>
-        IMAGEN/LOGO
-      </Grid>
+      <Home></Home>
       <Grid item xs={12} sx={{ textAlign: "center" }}>
         BIOGRAFIA
       </Grid>
