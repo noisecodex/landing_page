@@ -23,7 +23,7 @@ const Home = () => {
             maxWidth: { xs: 350, md: 250 },
           }}
           alt="mistic roove band."
-          src="./mistic.jpeg"
+          src="C:\Projects\react\landing_page\src\static\mistic.jpeg"
         />
       </Grid>
     </>
