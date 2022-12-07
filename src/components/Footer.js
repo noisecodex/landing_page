@@ -6,7 +6,7 @@ export const Footer = () => {
     <div>
       <footer>
         <h4>
-          made with <FavoriteIcon fontSize="small" /> by noise|code
+          made with <FavoriteIcon fontSize="small" /> by noisecodex
         </h4>
       </footer>
     </div>
