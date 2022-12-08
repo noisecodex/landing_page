@@ -5,6 +5,7 @@ import LocalPostOfficeIcon from "@mui/icons-material/LocalPostOffice";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export const SocialMedia = () => {
   return (
@@ -15,6 +16,7 @@ export const SocialMedia = () => {
         <TwitterIcon fontSize="large" />
         <YouTubeIcon fontSize="large" />
         <InstagramIcon fontSize="large" />
+        <WhatsAppIcon fontSize="large" />
       </Grid>
     </>
   );

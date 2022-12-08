@@ -7,7 +7,7 @@ const Layout = (props) => {
       maxWidth="false"
       sx={{
         background: "green",
-        height: "741px",
+        height: "auto",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",

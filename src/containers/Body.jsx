@@ -3,6 +3,7 @@ import { Grid } from "@mui/material";
 import Home from "../components/Home";
 import Biography from "../components/Biography";
 import { SocialMedia } from "../components/SocialMedia";
+import Downloads from "../components/Downloads";
 
 const Body = () => {
   return (
@@ -15,7 +16,7 @@ const Body = () => {
         <SocialMedia></SocialMedia>
       </Grid>
       <Grid item xs={12} sx={{ textAlign: "center" }}>
-        DESCARGAS
+        <Downloads></Downloads>
       </Grid>
     </Grid>
   );
