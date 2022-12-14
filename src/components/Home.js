@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Box } from "@mui/material";
+import { Grid, Typography, Box, ImageList, ImageListItem } from "@mui/material";
 
 const Home = () => {
   return (
@@ -14,17 +14,15 @@ const Home = () => {
         </Typography>
       </Grid>
       <Grid item xs={6} sx={{ textAlign: "center" }}>
-        <Box
-          component="img"
-          sx={{
-            height: 233,
-            width: 350,
-            maxHeight: { xs: 233, md: 167 },
-            maxWidth: { xs: 350, md: 250 },
-          }}
-          alt="mistic roove band."
-          src="C:\Projects\react\landing_page\src\static\mistic.jpeg"
-        />
+        <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
+          <ImageListItem key="0001">
+            <img
+              src="../static/mistic.jpeg"
+              alt="mistic roove"
+              loading="lazy"
+            />
+          </ImageListItem>
+        </ImageList>
       </Grid>
     </>
   );
