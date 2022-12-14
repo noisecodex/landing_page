@@ -22,7 +22,7 @@ module.exports = {
         use: [{ loader: MiniCssExtractPlugin.loader }, "css-loader"],
       },
       {
-        test: /\.(png|gif|jpg|svg)$/,
+        test: /\.(png|gif|jpg|jpeg|svg)$/,
         use: [
           { loader: "file-loader", options: { name: "assets/[hash].[ext]" } },
         ],

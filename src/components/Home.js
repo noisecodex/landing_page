@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Typography, Box, ImageList, ImageListItem } from "@mui/material";
+import mistic from "../assets/static/mistic.jpeg";
 
 const Home = () => {
   return (
@@ -14,13 +15,9 @@ const Home = () => {
         </Typography>
       </Grid>
       <Grid item xs={6} sx={{ textAlign: "center" }}>
-        <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
+        <ImageList sx={{ width: 1500, height: 450 }} cols={3} rowHeight={164}>
           <ImageListItem key="0001">
-            <img
-              src="../static/mistic.jpeg"
-              alt="mistic roove"
-              loading="lazy"
-            />
+            <img src={mistic} alt="mistic roove" loading="lazy" />
           </ImageListItem>
         </ImageList>
       </Grid>
